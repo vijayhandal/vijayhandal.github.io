@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    width: 100%;
+    height: 80px;
+    border: solid 1px;
+    background-color: black;
+    /* position:absolute; */
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-content: center;
+}
+#navbar>button{
+    font-weight: bold;
+    font-size: 100%;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+#profile{
+    width: 50%;
+    border-radius: 10px;
+    /* margin: 5%; */
+    /* padding: px; */
+    box-shadow: red 0px 5px 15px;
+    background-color: #172726;
+    /* border: solid 1px red; */
+    /* margin-left: 50px; */
+}
+#pro{
+    padding: 20px;
+    /* border: solid 1px red; */
+}
+#home{
+    background-color: black;
+    height: 550px;
+}
+#homepage{
+    /* border: solid 1px ; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    /* gap: 50px; */
+    /* padding: 20px; */
+    color: white;
+    align-items: center;
+    
+}
+#name{
+    width: 50%;
+    margin-top:50px;
+    /* border: solid 1px red; */
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+#resume{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 2px;    
+}
+#resume>img{
+    width: 20px;
+}
+@media all and (min-width:470px) and (max-width:720px){
+    
+}
+
