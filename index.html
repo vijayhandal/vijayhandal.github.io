@@ -4,31 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet"/>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Document</title>
     <link rel="stylesheet" href="./portfolio.css">
 </head>
 <body>
-    <div id="home">
-   <div id="navbar">
-    <img src="" alt="">
-    <button>HOME</button>
-    <button>ABOUT</button>
-    <button>SKILL</button>
-    <button>PROJECTS</button>
-    <BUtton>CONTACT</BUtton>
-   </div>
-   <div id="homepage">
-    <div id="pro">
-        <img id="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuGibomxZre1buVNs5x0D1F1iem4Ezda9vT2-S3Ow4Pozpy1slB-hqmaQMSdMkKgWT62A&usqp=CAU" alt="profile">
-    </div>
-    <div id ="name">
-        <h1>Hi,</h1>
-        <h1>I'm VIJAY.</h1>
-        <h1>I love designing and <br>   building websites.</h1>
-    </div>
-    <button id="resume">RESUME <img src="https://cdn-icons-png.flaticon.com/512/2381/2381981.png" alt=""></button>
-   </div>
-   </div>
+     <!--===== HEADER =====-->
+     <header class="l-header">
+        <nav class="nav bd-grid">
+          <div>
+            <!-- &#60; Hardik /&#62; -->
+            <a href="#home" class="nav-logo">
+              <img src="https://cdn-icons-png.flaticon.com/512/5069/5069994.png" alt="V"/>
+          </a>
+          </div>
+  
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link home active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link about">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </nav>
+      </header>
+  
+      <main class="l-main">
+  
+          
+        <!--===== HOME =====-->
+        <section class="home bd-grid section" id="home">
+          <div class="home-data">
+          <h2 class="home-title">
+            <br>  Hi,<br />I'am <span class="home-title-color">VIJAY</span><br> JAVA <br>BACKEND DEVELOPER 
+          </h2>
+  
+            <a href="#" target="_blank" id="resume"  class="button">Resume</a>
+          </div>
+  
+          <div class="home-social">
+            <a href="https://www.linkedin.com/in/hardik-thummar-b2b939143/" target="_blank" id="home-social-icon1" class="home-social-icon">
+              <i class="bx bxl-linkedin"></i>
+              </a>
+            <a href="https://github.com/HardikThummar97" target="_blank" class="home-social-icon"><i class="bx bxl-github"></i></a>
+          </div>
+  
+          <div class="home-img">
+              <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEXjQxBIeZwEA/profile-displayphoto-shrink_400_400/0/1662663234753?e=1668643200&v=beta&t=-1xEi-0lrm_gtsEM2cto-MbQlD2upRDrrf_XKCdhIK0" alt="" />
+            </div>
+         
+        </section>
+  
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+          <h2 class="section-title">About</h2>
+  
+          <div class="about-container bd-grid">
+            <!-- <div class="about-img">
+              <img src="assets/img/Profile1.png" alt="" />
+            </div> -->
+  
+            <div style="text-align: center">
+              <h2 class="about-subtitle">I'am Vijay handal</h2>
+              <p class="about-text">
+                Quick learner and an aspiring Java Backend developer with core
+                knowledge of Java. Looking forward to applying
+                and enhancing my skills and knowledge as a developer.
+              </p>
+              <br />
+              <p>
+                Drop a mail handalvijay9688@gmail.com
+                <i
+                  style="color: #4070f4; font-size: 1.2rem; cursor: pointer"
+                  class="bx bx-copy"
+                  id="copy"
+                ></i>
+              </p>
+            </div>
+          </div>
+        </section>
 </body>
 </html>
 <script src="./portfolio.js"></script>
