@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root {
-  --first-color: teal;
+  --first-color: rgb(218, 5, 5);
   --second-color: #0e2431;
 }
 
@@ -115,13 +115,17 @@ img {
   margin-right: var(--mb-2);
 }
 .l-header {
+  padding-bottom: 10px;
+  letter-spacing: 2px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  /* box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15); */
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+  box-shadow: gray 0px 30px 60px -12px inset, teal 0px 18px 36px -18px inset;
 }
 
 /*===== NAV =====*/
@@ -200,6 +204,26 @@ img {
   position: absolute;
   right: 20px;
 }
+@keyframes example {
+  from {background-color: black;}
+  to {background-color: rgb(205, 9, 9);}
+}
+
+/* The element to apply the animation to */
+.button{
+
+  /* background-color: blue; */
+  animation-name: example;
+  animation-duration: 4s;
+}
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210207/pngtree-gray-gradient-background-simple-image_557033.jpg");
+  /* background-color: #aaaaaa; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;   */
+  background-size: 100% 60%;
+
+}
 .home-title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
@@ -210,13 +234,14 @@ img {
 .home-social {
   display: flex;
   flex-direction: column;
-  margin-top: 52%;
+  margin-top: 43%;
   /* justify-items: center; */
   /* border: solid 1px red; */
 }
 .home-social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
+  /* margin-bottom: 50px; */
   font-size: 1.5rem;
   color: var(--second-color);
 }
@@ -245,8 +270,11 @@ width: 50%;
 /*BUTTONS*/
 .button {
   display: inline-block;
+  /* margin-bottom: var(--mb-2); */
   background-color: var(--first-color);
-  border: 1px solid var(--first-color);
+  /* border: 1px solid var(--first-color); */
+  border: transparent;
+
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
