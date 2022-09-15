@@ -44,7 +44,7 @@ const showMenu = ( toggleId, navId ) => {
   /*===== COPY Email =====*/
   const copy = document.getElementById( "copy" );
   copy.addEventListener( "click", () => {
-    navigator.clipboard.writeText( "hardikthummar97@gmail.com" );
+    navigator.clipboard.writeText( "handalvijay9588@gmail.com" );
     copy.innerHTML = "copied";
     setTimeout( () => {
       copy.innerHTML = null;
@@ -55,7 +55,7 @@ const showMenu = ( toggleId, navId ) => {
   const sr = ScrollReveal( {
     origin: "top",
     distance: "80px",
-    duration: 2000,
+    duration: 1000,
     reset: true,
   } );
   
