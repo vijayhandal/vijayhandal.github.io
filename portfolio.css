@@ -205,7 +205,7 @@ img {
   right: 20px;
 }
 @keyframes example {
-  from {background-color: black;}
+  from {background-color: teal;}
   to {background-color: rgb(205, 9, 9);}
 }
 
@@ -221,7 +221,7 @@ body {
   /* background-color: #aaaaaa; */
   background-repeat: no-repeat;
   /* background-attachment: fixed;   */
-  background-size: 100% 60%;
+  background-size: 100% 650px;
 
 }
 .home-title {
@@ -239,11 +239,15 @@ body {
   /* border: solid 1px red; */
 }
 .home-social-icon {
-  width: max-content;
+  /* border: 1px solid; */
+  width: 35px;
   margin-bottom: var(--mb-2);
   /* margin-bottom: 50px; */
   font-size: 1.5rem;
   color: var(--second-color);
+}
+.home-social-icon>img{
+width: 100%;
 }
 #home-social-icon1{
     margin-left: 6%;
@@ -274,7 +278,7 @@ width: 50%;
   background-color: var(--first-color);
   /* border: 1px solid var(--first-color); */
   border: transparent;
-
+  letter-spacing: 2px;
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -308,55 +312,59 @@ section.about {
   width: 200px;
   border-radius: 0.5rem;
 }
-
+#name{
+color: gray;
+}
 /* ===== SKILLS =====*/
 .skills-container {
   row-gap: 2rem;
+
+  justify-items: center;
   text-align: center;
+
 }
-.skills-subtitle {
+/* .skills-subtitle {
   margin-bottom: var(--mb-2);
-}
-.skills-text {
+} */
+/* .skills-text {
   margin-bottom: var(--mb-4);
-}
+} */
 .skills-data {
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
   position: relative;
   font-weight: var(--font-semi);
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   margin-bottom: var(--mb-4);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+ 
 }
 .skills-icon {
-  width: 2rem;
-  font-size: 2rem;
+  width: 5rem;
+  /* font-size: 2rem; */
+  display: block;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+  align-items: center;
+  margin-left: var(--mb-2);
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
 img.man-icons {
   font-size: 2rem;
-  margin-right: var(--mb-2);
+  /* margin-right: var(--mb-2); */
   color: var(--first-color);
 }
 .skills-names {
-  display: flex;
-  align-items: center;
+  height: 100px;
+  text-align: center;
 }
-.skills-bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: 0.25rem;
-  border-radius: 0.5rem;
-  z-index: var(--z-back);
-}
+
 .skills-html {
-  width: 75%;
+  width: 10%;
 }
 .skills-css {
   width: 70%;
@@ -364,7 +372,7 @@ img.man-icons {
 .skills-js {
   width: 85%;
 }
-.skills-react,
+.skills-react,  
 .skills-mongo {
   width: 80%;
 }
