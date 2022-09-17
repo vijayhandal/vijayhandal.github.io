@@ -74,10 +74,7 @@ const showMenu = ( toggleId, navId ) => {
   sr.reveal( ".skills-subtitle", {} );
   sr.reveal( ".skills-text", {} );
   sr.reveal( ".skills-data", { interval: 100 } );
-  // sr.reveal(".skills-img", { delay: 600 });
-  
-  /*SCROLL projects*/
+
   sr.reveal( ".project-img", { interval: 200 } );
   
-  /*SCROLL CONTACT*/
-  // sr.reveal(".contact-input", { interval: 200 });
+ 
