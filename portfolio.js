@@ -55,7 +55,7 @@ const showMenu = ( toggleId, navId ) => {
   const sr = ScrollReveal( {
     origin: "top",
     distance: "80px",
-    duration: 1000,
+    duration: 100,
     reset: true,
   } );
   
@@ -77,4 +77,4 @@ const showMenu = ( toggleId, navId ) => {
 
   sr.reveal( ".project-img", { interval: 200 } );
   
- 
+
