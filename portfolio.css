@@ -838,6 +838,14 @@ footer .bottom_section .left{color:#fff;opacity:.5}.heading{font-size:9vw;line-h
   }
 }
 
+@media (max-width:368px) {
+  .githubCalendarWrapper {
+      scale: 0.3;
+      padding-top: 80px;
+      padding-bottom: 30px;
+  }
+}
+
 @media (min-width:992px) {
   .githubCalendarWrapper {
       scale: 1.1;
