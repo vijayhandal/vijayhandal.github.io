@@ -61,7 +61,7 @@ const showMenu = ( toggleId, navId ) => {
   
   /*SCROLL HOME*/
   sr.reveal( ".home-title", {} );
-  sr.reveal( ".button", { delay: 200 } );
+  sr.reveal( ".button", {delay:100} );
   sr.reveal( ".home-img", { delay: 400 } );
   sr.reveal( ".home-social-icon", { interval: 200 } );
   
@@ -75,6 +75,6 @@ const showMenu = ( toggleId, navId ) => {
   sr.reveal( ".skills-text", {} );
   sr.reveal( ".skills-data", { interval: 100 } );
 
-  sr.reveal( ".project-img", { interval: 200 } );
+  // sr.reveal( ".project-img", { interval: 100 } );
   
 
