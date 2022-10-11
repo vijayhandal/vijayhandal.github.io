@@ -61,7 +61,7 @@ const showMenu = ( toggleId, navId ) => {
   
   /*SCROLL HOME*/
   sr.reveal( ".home-title", {} );
-  sr.reveal( ".button", {delay:100} );
+  // sr.reveal( ".button", {delay:100} );
   sr.reveal( ".home-img", { delay: 400 } );
   sr.reveal( ".home-social-icon", { interval: 200 } );
   
