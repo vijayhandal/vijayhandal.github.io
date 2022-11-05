@@ -231,7 +231,7 @@ img {
 
 @keyframes example {
   from {
-    background-color: teal;
+    background-color: black;
   }
   to {
     background-color: rgb(205, 9, 9);
