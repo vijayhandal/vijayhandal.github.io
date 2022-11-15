@@ -16,6 +16,7 @@ body,html{
     cursor:url(images/cursor.png),auto;
     scroll-behavior:smooth;
     background-size: 100%;
+    overflow-x: hidden;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
