@@ -78,3 +78,6 @@ const showMenu = ( toggleId, navId ) => {
   // sr.reveal( ".project-img", { interval: 100 } );
   
 
+document.getElementById("resume").addEventListener("click",function() {
+window.open("https://drive.google.com/file/d/15bZyc5lsRm3xO7ppJFUoWLUJGAT7CtBF/view","_blank");
+});
