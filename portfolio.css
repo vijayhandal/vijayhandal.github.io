@@ -368,7 +368,7 @@ width: 50%;
 }
 
 #stats{
-  width: 70%;
+  width: 80%;
   /* border: 1px solid; */
   margin: auto;
   display: flex;
@@ -736,7 +736,7 @@ img{
 
 .skill{
   /* border: 1px solid; */
-  width: 70%;
+  width: 85%;
   margin: auto;
 }
 
@@ -926,6 +926,7 @@ footer .bottom_section .left{
 
 /* github calender */
 .githubCalendarWrapper {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -941,7 +942,6 @@ footer .bottom_section .left{
   margin: auto;
   align-items: center;
   padding: 20px 50px;
-  
 }
 .gitHubCalendar:hover{
   box-shadow:0 2px 5px 0 rgb(18, 1, 1);
