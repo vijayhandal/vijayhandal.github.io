@@ -81,3 +81,7 @@ const showMenu = ( toggleId, navId ) => {
 document.getElementById("resume").addEventListener("click",function() {
 window.open("https://drive.google.com/file/d/15bZyc5lsRm3xO7ppJFUoWLUJGAT7CtBF/view","_blank");
 });
+
+document.getElementById("resume1").addEventListener("click",function() {
+  window.open("https://drive.google.com/file/d/15bZyc5lsRm3xO7ppJFUoWLUJGAT7CtBF/view","_blank");
+  });
