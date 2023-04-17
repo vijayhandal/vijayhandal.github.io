@@ -85,3 +85,41 @@ window.open("https://drive.google.com/file/d/15bZyc5lsRm3xO7ppJFUoWLUJGAT7CtBF/v
 document.getElementById("resume1").addEventListener("click",function() {
   window.open("https://drive.google.com/file/d/15bZyc5lsRm3xO7ppJFUoWLUJGAT7CtBF/view","_blank");
   });
+
+  
+
+  function sendEmail(){
+    console.log(document.getElementById("name1").value=='');
+    if(document.getElementById("name1").value==''){
+      console.log(document.getElementById("name").value);
+      alert("Name should not be empty..!!");
+    }else if(document.getElementById("email").value==''){
+      console.log(document.getElementById("email").value);
+      alert("Email should not be empty..!!");
+    }else if(document.getElementById("message").value==''){
+      console.log(document.getElementById("message").value);
+      alert("Message should not be empty..!!");
+    }else{
+    var params = {
+      name:document.getElementById("name1").value,
+      email:document.getElementById("email").value,
+      message:"Message: "+document.getElementById("message").value
+    }
+  
+  
+  const serviceID = "service_2vxdicv";
+  const templateID = "template_t6ue2qb";
+  // console.log("Name: - "+params.name);
+  emailjs.send(serviceID,templateID,params)
+  .then(
+    res=>{
+      document.getElementById("name1").value = ""
+      document.getElementById("email").value = ""
+      document.getElementById("message").value = ""
+      console.log(res)
+      alert("email send successfully..")
+    }
+  ).catch(err=>{console.log(err)});
+  console.log(params);
+  }
+  }

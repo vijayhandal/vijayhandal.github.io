@@ -14,6 +14,14 @@
     <title>VIJAY HANDAL</title>
     <link rel="stylesheet" href="./portfolio.css">
       <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("GeGU0M35zg2fUWQL6");
+  })();
+</script>
 </head>
 <body>
      <!--===== HEADER =====-->
@@ -321,16 +329,17 @@
                         </a>
                     </div>
                   <div class="right_section">
-                     <form action="">
+                     <form>
                       <div>
                         <h5>Have an idea?</h5>
                         <h5>Let's make something great!</h5>
                       </div>
-                        <input placeholder="Name" style="height:40px;padding:10px 10px;font-family:Poppins;border:0;border-bottom:2px solid #fff;width:100%;font-size:16px;font-weight:300;background-color:transparent;color:#fff"> 
-                        <input type="email" placeholder="Email" style="height:40px;padding:10px 10px;font-family:Poppins;border:0;border-bottom:2px solid #fff;width:100%;font-size:16px;font-weight:300;background-color:transparent;color:#fff"> 
-                        <input placeholder="Message" style="height:40px;padding:10px 10px;font-family:Poppins;border:0;border-bottom:2px solid #fff;width:100%;font-size:16px;font-weight:300;background-color:transparent;color:#fff"> 
-                        <input class="button_style1" type="Submit" value="Send">
+                        <input id="name1" placeholder="Name" style="height:40px;padding:10px 10px;font-family:Poppins;border:0;border-bottom:2px solid #fff;width:100%;font-size:16px;font-weight:300;background-color:transparent;color:#fff"> 
+                        <input id="email" type="email" placeholder="Email" style="height:40px;padding:10px 10px;font-family:Poppins;border:0;border-bottom:2px solid #fff;width:100%;font-size:16px;font-weight:300;background-color:transparent;color:#fff"> 
+                        <input id="message" placeholder="Message" style="height:40px;padding:10px 10px;font-family:Poppins;border:0;border-bottom:2px solid #fff;width:100%;font-size:16px;font-weight:300;background-color:transparent;color:#fff"> 
+                        
                       </form>
+                      <button style="margin-top: 30px;" class="button_style1" onclick="sendEmail()" >SUBMIT</button>
                     </div>
                   </div>
                   
@@ -378,3 +387,5 @@ GitHubCalendar(".gitHubCalendar", "vijay9969", {
 }).then(r => r.text());
 
 </Script>
+
+
