@@ -79,11 +79,11 @@ const showMenu = ( toggleId, navId ) => {
   
 
 document.getElementById("resume").addEventListener("click",function() {
-window.open("https://drive.google.com/file/d/1an8ujiJPzdpQHGna9S7vLBWmv_JZQvbF/view?usp=sharing","_blank");
+window.open("https://drive.google.com/file/d/1an8ujiJPzdpQHGna9S7vLBWmv_JZQvbF/view","_blank");
 });
 
 document.getElementById("resume1").addEventListener("click",function() {
-  window.open("https://drive.google.com/file/d/1an8ujiJPzdpQHGna9S7vLBWmv_JZQvbF/view?usp=sharing","_blank");
+  window.open("https://drive.google.com/file/d/1an8ujiJPzdpQHGna9S7vLBWmv_JZQvbF/view","_blank");
   });
 
   
