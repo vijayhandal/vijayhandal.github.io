@@ -505,7 +505,7 @@ section.about {
   width: 200px;
   border-radius: 0.5rem;
 }
-#name{
+.name{
 color: gray;
 }
 /* ===== SKILLS =====*/
