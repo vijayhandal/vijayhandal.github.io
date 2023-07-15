@@ -97,7 +97,14 @@ img {
   height: auto;
   display: block;
 }
-
+.experience-box{
+  text-align: center;
+   border-radius: 2%; 
+   box-shadow:0 2px 5px 0 rgba(0,0,0,.123);
+   padding: 6%;
+}.experience-box:hover{
+  box-shadow:0 2px 5px 0 rgb(18, 1, 1);
+}
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
@@ -281,7 +288,7 @@ img {
   padding: 0px 20px 0px 95px;
 }
 .home_title {
-  font-size: 300%;
+  font-size: 220%;
   margin-bottom: var(--mb-5);
 }
 .home-title-color {
