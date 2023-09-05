@@ -575,6 +575,8 @@ img{
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .project-img img {
   transition: 1s;
@@ -603,7 +605,7 @@ img{
 }
 .project-btns {
   position:relative;
-  bottom: 0;
+  bottom: 0px;
 }
 
 
