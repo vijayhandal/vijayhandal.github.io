@@ -99,9 +99,9 @@ img {
 }
 .experience-box{
   text-align: center;
-   border-radius: 2%; 
+   border-radius: 4px; 
    box-shadow:0 2px 5px 0 rgba(0,0,0,.123);
-   padding: 6%;
+   padding:5%;
 }.experience-box:hover{
   box-shadow:0 2px 5px 0 rgb(18, 1, 1);
 }
@@ -501,6 +501,7 @@ section.about {
   row-gap: 2rem;
   text-align: center;
 }
+
 .about-subtitle {
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-2);
